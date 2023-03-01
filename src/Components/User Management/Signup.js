@@ -76,8 +76,8 @@ export const Signup = () => {
 
   return (
     <>
-      <div>
-        <Card style={{ width: "35rem", height: "48rem" }} className="align-container">
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+        <Card style={{ width: "35rem", height: "48rem"}}>
           <Card.Body>
             <h2 className="text-center mb-4">Signup</h2>
             <Form onSubmit={handleSubmit}>

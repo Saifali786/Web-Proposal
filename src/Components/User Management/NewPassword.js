@@ -31,8 +31,8 @@ export const NewPassword = () => {
   };
   return (
     <>
-      <div>
-        <Card style={{ width: "30rem", height: "25rem" }} className="align-container">
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+        <Card style={{ width: "30rem", height: "25rem" }}>
           <Card.Body>
             <h2 className="text-center mb-4">New Password</h2>
             <Form onSubmit={handleSubmit}>

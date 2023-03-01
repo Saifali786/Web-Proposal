@@ -19,10 +19,9 @@ export const ForgotPassword = () => {
   };
   return (
     <>
-      <div>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
         <Card
           style={{ width: "30rem", height: "20rem" }}
-          className="align-container"
         >
           <Card.Body>
             <h2 className="text-center mb-4">Reset Password</h2>

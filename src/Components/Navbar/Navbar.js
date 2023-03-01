@@ -6,7 +6,7 @@ const Navbar = (props) => {
   return (
     <>
       <header className="header-container">
-        <NavLink to="/">
+        <NavLink to="#">
           <img src="header.jpg" alt="header-logo" className="header-logo" />
         </NavLink>
         <nav

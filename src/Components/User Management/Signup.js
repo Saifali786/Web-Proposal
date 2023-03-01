@@ -76,7 +76,7 @@ export const Signup = () => {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+      <div style={{ display: "flex", justifyContent: "center"}}>
         <Card style={{ width: "35rem", height: "48rem"}}>
           <Card.Body>
             <h2 className="text-center mb-4">Signup</h2>

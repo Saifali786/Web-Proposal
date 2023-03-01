@@ -18,10 +18,11 @@ import Modal from "react-bootstrap/Modal";
 
 export default function DisplayProfilepage() {
   const navigate = useNavigate();
-
   const list = JSON.parse(localStorage.getItem("list"));
   console.log(list);
+  if(list.length !== 0) {
   const listItems = list.map((listItem) => <li>{listItem}</li>);
+  }
 
   const [showModal, setShowModal] = useState(false);
   const [show, setShow] = useState(false);

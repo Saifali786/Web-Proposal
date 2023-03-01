@@ -19,7 +19,7 @@ export const ForgotPassword = () => {
   };
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+      <div style={{ display: "flex", justifyContent: "center"}}>
         <Card
           style={{ width: "30rem", height: "20rem" }}
         >

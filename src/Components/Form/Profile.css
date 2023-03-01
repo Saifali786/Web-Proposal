@@ -1,0 +1,13 @@
+.update-profile {
+  background-image: linear-gradient(
+    to right,
+    rgb(219, 240, 240),
+    rgb(240, 240, 219)
+  );
+  padding: 1rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  height: 100%;
+}

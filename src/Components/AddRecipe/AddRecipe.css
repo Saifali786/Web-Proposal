@@ -1,0 +1,10 @@
+.add-recipe {
+  padding: 1rem;
+  max-width: 95%;
+  border-radius: 12px;
+  background-image: linear-gradient(
+    to right,
+    rgb(219, 240, 240),
+    rgb(240, 240, 219)
+  );
+}

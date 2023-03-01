@@ -58,7 +58,7 @@ export const Login = () => {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <Card style={{ width: "30rem", height: "27rem" }}>
           <Card.Body>
             <h2 className="text-center mb-4">Login</h2>

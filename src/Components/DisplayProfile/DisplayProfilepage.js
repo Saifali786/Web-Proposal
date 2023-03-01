@@ -20,10 +20,9 @@ export default function DisplayProfilepage() {
   const navigate = useNavigate();
   const list = JSON.parse(localStorage.getItem("list"));
   console.log(list);
-  if(list.length === 0) {
+  if(list === null) {
     list = ["Nothing is added in the list"];
   }
- 
   const listItems = list.map((listItem) => <li>{listItem}</li>);
   
 
